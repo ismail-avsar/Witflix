@@ -1,0 +1,46 @@
+header {
+  padding: 2rem 0;
+}
+
+header img.logo {
+  height: 25px;
+}
+
+header nav {
+  gap: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+header .search {
+  gap: 0.8rem;
+}
+
+header .search input {
+  background-color: #000;
+  border-style: solid;
+  border-width: 1px;
+  padding: 2px 10px;
+  border-radius: 0.3rem;
+}
+
+header .search i {
+  font-size: 1.2rem;
+}
+@media (max-width: 750px) {
+  header {
+    flex-wrap: wrap;
+  }
+  header nav {
+    order: 3;
+    width: 60%;
+    margin: 2rem auto 0;
+  }
+  .hero-content p {
+    width: 100%;
+    text-align: justify;
+  }
+}

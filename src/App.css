@@ -1,0 +1,19 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  background-color: #000;
+  color: #fff !important;
+  min-width: 400px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+footer {
+  padding: 2rem 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+footer div:first-child {
+  width: 60%;
+}
+
+footer nav a {
+ text-decoration: none;
+ color: #fff;
+ transition: 0.3s;
+}
+
+footer nav a:hover {
+ color: red;
+}
+
+footer .copyright {
+  text-align: justify;
+  margin-top: 1rem;
+}
+   
+.social img,
+ .apps img {
+  height: 30px;
+}
+
+@media (max-width: 750px) {
+  
+  footer {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  footer div:first-child {
+    width: 100%;
+  }
+}

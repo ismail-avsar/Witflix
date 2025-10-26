@@ -1,0 +1,8 @@
+[
+    { "id": 1, "image":"1.jpg", "genre": "Dram", "type": "Popular", "duration": "2hr 21m" },
+    { "id": 2, "image":"2.jpg", "genre": "Korku", "type": "Popular", "duration": "2hr 21m"},
+    { "id": 3, "image":"3.jpg", "genre": "Animasyon", "type": "Popular", "duration": "2hr 21m"},
+    { "id": 4, "image":"4.jpg", "genre": "Aksiyon", "type": "Recommended", "duration": "2hr 21m"},
+    { "id": 5, "image":"5.jpg", "genre": "Dram", "type": "Recommended", "duration": "2hr 21m"},
+    { "id": 6, "image":"6.jpg", "genre": "Aksiyon", "type": "Recommended","duration": "2hr 21m"}
+]
